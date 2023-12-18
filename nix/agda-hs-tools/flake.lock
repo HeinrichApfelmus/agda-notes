@@ -1,0 +1,135 @@
+{
+  "nodes": {
+    "agda": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1701366566,
+        "narHash": "sha256-B8Jmjld0gGbkVO08GsovVqrUXCs8VfJ8UdM3sjHnzgM=",
+        "owner": "agda",
+        "repo": "agda",
+        "rev": "4293e0a94d15acac915ab9088b2ec028f78d14a9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "agda",
+        "ref": "v2.6.4.1",
+        "repo": "agda",
+        "type": "github"
+      }
+    },
+    "agda-stdlib": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1702291622,
+        "narHash": "sha256-TjGvY3eqpF+DDwatT7A78flyPcTkcLHQ1xcg+MKgCoE=",
+        "owner": "agda",
+        "repo": "agda-stdlib",
+        "rev": "2b8fff10f4033b91a6df4007e4a65cb10047c89c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "agda",
+        "ref": "v2.0",
+        "repo": "agda-stdlib",
+        "type": "github"
+      }
+    },
+    "agda2hs": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1702307276,
+        "narHash": "sha256-19NGyK7qbsQ+EBX6lygNFOXRyDm/48KlBf8ixBU7PUw=",
+        "owner": "agda",
+        "repo": "agda2hs",
+        "rev": "b269164e15da03b74cf43b51c522f4f052b4af80",
+        "type": "github"
+      },
+      "original": {
+        "owner": "agda",
+        "ref": "v1.2",
+        "repo": "agda2hs",
+        "type": "github"
+      }
+    },
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1678901627,
+        "narHash": "sha256-U02riOqrKKzwjsxc/400XnElV+UtPUQWpANPlyazjH0=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "93a2b84fc4b70d9e089d029deacc3583435c2ed6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "flake-utils_2": {
+      "inputs": {
+        "systems": "systems"
+      },
+      "locked": {
+        "lastModified": 1681378341,
+        "narHash": "sha256-2qUN04W6X9cHHytEsJTM41CmusifPTC0bgTtYsHSNY8=",
+        "owner": "hamishmack",
+        "repo": "flake-utils",
+        "rev": "2767bafdb189cd623354620c2dacbeca8fd58b17",
+        "type": "github"
+      },
+      "original": {
+        "owner": "hamishmack",
+        "ref": "hkm/nested-hydraJobs",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1702913911,
+        "narHash": "sha256-cvn5S6mYynGZV4qTLNJWHIR9pfBQGaiqintt3jiBfdU=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "552363205713fb589dde224a9e6f833a369c5bba",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "agda": "agda",
+        "agda-stdlib": "agda-stdlib",
+        "agda2hs": "agda2hs",
+        "flake-utils": "flake-utils_2",
+        "nixpkgs": "nixpkgs"
+      }
+    },
+    "systems": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
