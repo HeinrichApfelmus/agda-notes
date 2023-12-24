@@ -1,0 +1,6 @@
+name: containers
+include: agda
+depend:
+  standard-library
+  agda2hs
+flags: -W noUnsupportedIndexedMatch --erasure
