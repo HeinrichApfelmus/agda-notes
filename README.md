@@ -35,11 +35,6 @@ This repository contains a nix flake that includes
 ## TODO
 
 * Proving with `case` expressions
-
-* Equality of functions — Definitional, propositional and extensional equality
-  * Extensionality is independent, but it's something that we definitely want.
-  * https://github.com/agda/agda/issues/4590
-
 * Fully verified implementation of `Data.Map` as binary tree.
 * Setoid version of `Data.Map`
 
